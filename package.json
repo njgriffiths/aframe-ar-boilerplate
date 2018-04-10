@@ -1,0 +1,23 @@
+{
+  "name": "aframe-arjs-template",
+  "version": "1.0.0",
+  "description": "new project templte",
+  "main": "js/server.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --host 0.0.0.0 --progress --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aframe": "^0.8.1",
+    "aframe-ar": "^0.2.1-a",
+    "ar.js": "^1.4.10",
+    "three.ar.js": "^0.1.8"
+  },
+  "devDependencies": {
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
